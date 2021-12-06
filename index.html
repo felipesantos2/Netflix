@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style/main.css">
+    <!-- owl css -->
+    <link rel="stylesheet" href="style/owl/owl.carousel.min.css">
+    <link rel="stylesheet" href="style/owl/owl.theme.default.min.css">
+
+    <title>NETFLIX CLONE</title>
+    
+</head>
+<body>
+    <header>
+        <!-- Menu de navegação  NAVBAR -->
+        <div class="container">
+            <h2 class="logo">netflix</h2>
+            <nav>
+                <a href="#">Inicio</a>
+                <a href="#">Séries</a>
+                <a href="#">Filmes</a>
+                <a href="#">Documentários</a>   
+            </nav>
+        </div> <!--fim container-->
+    </header>
+
+    <!-- Miolo do site // conteudo principal-->
+    <main>
+        <div class="filme-principal">
+            <div class="container">
+                <h3 class="titulo">Attack on Titan</h3>
+                <p class= descricao>
+                   Titãs estão quase exterminando a raça humana. Porém alguns estão dispostos a formar um exército de
+                   ataque aos seres assassinos. O jovem Eren, após ver sua mãe ser devorada por um titã, decide que não
+                   deixará nenhum deles vivo e buscará sua vingança completa.
+                </p>
+                <div class="botoes">                    
+                    <button role="button" class="botao">
+                       <img id= "icon" src="/img/play-solid.svg" alt="Icone play">
+                        ASSISTIR AGORA
+                    </button>
+                    <button role="button" class="botao">
+                       <img class="icon" src="/img/info-circle-solid.svg" alt="Icone play">
+                        MAIS INFORMAÇÕES
+                    </button>
+                </div>
+            </div>     
+        </div>
+    </main>
+
+    <div class="carrosel-filmes">
+        <div class="owl-carrosel owl-theme">
+            <div class="item">
+               <img class="box-filme" src="img/tokyorevangers.jpg" alt="tokyo revangers">
+            </div>
+        </div>
+    </div>
+   
+    <script src="js/owl/jquery.min.js"></script>
+    <script src="js/owl/owl.carousel.min.js"></script>
+    <script src="js/owl/setup.js"></script>
+
+</body>
+</html>
